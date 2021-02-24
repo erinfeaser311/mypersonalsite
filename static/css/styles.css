@@ -1,0 +1,153 @@
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font: 16px "Raleway", sans-serif;
+  line-height: 1.5;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+}
+
+.top-container {
+  background-color: #00303f;
+  position: relative;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.top-container h1, h2 {
+  color: white;
+}
+
+.middle-container {
+  background-color: white;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.middle-container h1 {
+  text-align: center;
+}
+
+.middle-container p {
+  width: 65%;
+  margin: auto;
+  font-size: 18px;
+}
+
+.bottom-container {
+  background-color: #cae4db;
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.about-container {
+  background-color: #cae4db;
+  position: relative;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.currently-container {
+  background-color: #cdac81;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.goals-container {
+  width: 65%;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.goals-container h1 {
+     text-align: center;
+}
+
+.currently-container h1 {
+  text-align: center;
+
+}
+
+.currently-container li {
+  width: 65%;
+  margin: auto;
+  font-size: 20px;
+}
+
+.courses-container {
+  width: 65%;
+  margin: auto;
+  font-size: 16px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.courses-rows {
+  text-align: left;
+}
+
+.socials-container {
+  width: 65%;
+  margin: auto;
+  font-size: 20px;
+}
+
+
+
+.hi {
+    background-color: #00303f;
+    color: white;
+}
+
+.projects {
+  width: 65%;
+  margin: auto;
+  font-size: 16px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.project-container {
+    border-radius:5px;
+    background-color:#cae4db;
+    padding: 10px;
+    text-align: center;
+}
+
+#erin-img {
+  border-radius: 50%;
+  padding-bottom: 35px;
+}
+
+#erin-speaking-img {
+  max-height: 100%;
+  max-wid: 100%;
+  height: 500px;
+  width: 800px;
+}
+
+#blogheader {
+    border-radius:5px;
+    background-color:#cdac81;
+    padding:8.5px;
+}
